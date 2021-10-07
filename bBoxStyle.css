@@ -89,3 +89,33 @@ div ul li {
   width: 100%;
   padding: 15px 0;
 }
+
+/* Media queries for mobile */
+@media (max-width: 480px) {
+  /* resizing Background image for mobile devices...
+  Height = smaller */
+  #bgImg {
+    background-image: url(Images/FatherBabyXL.jpg);
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    height: 400px;
+    width: auto;
+    position: relative;
+    text-align: center;
+  }
+
+  /* For mobile version of second section....
+  What is Baby Box */
+
+  .box {
+    height: 200px;
+    width: 100%;
+    /* padding: auto; */
+    /* margin-left: 200px; */
+    margin: auto;
+    padding-bottom: 50px;
+    padding-top: 25px;
+  }
+}
