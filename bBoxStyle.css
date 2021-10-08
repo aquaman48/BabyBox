@@ -124,17 +124,23 @@ div ul li {
   .box {
     height: 300px;
     width: 300px;
-    /* padding: auto; */
     /* margin-left: 200px; */
     margin: auto;
     /* padding-bottom: 5rem; */
     padding-top: 5rem;
-    margin-bottom: -250px;
   }
   #baby1 {
+    bottom: auto;
     height: 300px;
-    width: 100%;
+    width: 99%;
     border: solid rebeccapurple;
     /* padding-bottom: 5rem; */
+    margin-bottom: 20px;
+    align-content: center;
+    margin-top: 50px;
+    position: absolute;
+    top: 800px;
+    right: 10px;
+    left: 0px;
   }
 }
